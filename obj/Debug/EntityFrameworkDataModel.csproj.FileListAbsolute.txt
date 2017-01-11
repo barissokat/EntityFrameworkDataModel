@@ -23,3 +23,7 @@ C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataMode
 C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataModel\EntityFrameworkDataModel\obj\Debug\EntityFrameworkDataModel.csprojResolveAssemblyReference.cache
 C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataModel\EntityFrameworkDataModel\obj\Debug\EntityFrameworkDataModel.dll
 C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataModel\EntityFrameworkDataModel\obj\Debug\EntityFrameworkDataModel.pdb
+C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataModel\EntityFrameworkDataModel\bin\EntityFramework.dll
+C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataModel\EntityFrameworkDataModel\bin\EntityFramework.SqlServer.dll
+C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataModel\EntityFrameworkDataModel\bin\EntityFramework.xml
+C:\Users\baris\Documents\Visual Studio 2015\Projects\Git\EntityFrameworkDataModel\EntityFrameworkDataModel\bin\EntityFramework.SqlServer.xml

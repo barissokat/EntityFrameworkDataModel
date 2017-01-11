@@ -4,12 +4,21 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="fullContentPlaceHolder" runat="server">
     <div class="col-sm-3 col-md-2 sidebar">
-        <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Reports</a></li>
-            <li><a href="#">Analytics</a></li>
-            <li><a href="#">Export</a></li>
-        </ul>
+        <asp:Repeater ID="CategoryList" runat="server">
+            <HeaderTemplate>
+                <ul class="nav nav-sidebar">
+            </HeaderTemplate>
+            <ItemTemplate>
+                <li>
+                    <a href="/Books.aspx?catid=<%#Eval("Id") %>">
+                        <%#Eval("Name") %>
+                    </a>
+                </li>
+            </ItemTemplate>
+            <FooterTemplate>
+                </ul>
+            </FooterTemplate>
+        </asp:Repeater>
     </div>
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         <asp:ContentPlaceHolder ID="contentPlaceHolder" runat="server">
