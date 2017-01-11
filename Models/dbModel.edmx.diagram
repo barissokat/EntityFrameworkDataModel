@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="56b093bdf3aa46b3b2213a82dd3565b7" Name="Diagram1" ZoomLevel="74" >
+        <EntityTypeShape EntityType="dbModel.Address" Width="1.5" PointX="3" PointY="2.125" />
+        <EntityTypeShape EntityType="dbModel.Author" Width="1.5" PointX="5.25" PointY="2" />
+        <EntityTypeShape EntityType="dbModel.Book" Width="1.5" PointX="7.5" PointY="2" />
+        <EntityTypeShape EntityType="dbModel.Category" Width="1.5" PointX="7.375" PointY="6.375" />
+        <EntityTypeShape EntityType="dbModel.Country" Width="1.5" PointX="0.75" PointY="2.5" />
+        <EntityTypeShape EntityType="dbModel.Supplier" Width="1.5" PointX="9.75" PointY="2.25" />
+        <EntityTypeShape EntityType="dbModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="5.75" />
+        <AssociationConnector Association="dbModel.FK_Address_Country" />
+        <AssociationConnector Association="dbModel.FK_Author_Address" />
+        <AssociationConnector Association="dbModel.FK_Supplier_Address" />
+        <AssociationConnector Association="dbModel.Author_Book" />
+        <AssociationConnector Association="dbModel.Category_Book" />
+        <AssociationConnector Association="dbModel.Supplier_Book" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
