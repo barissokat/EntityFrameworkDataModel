@@ -7,6 +7,9 @@
         <asp:Repeater ID="CategoryList" runat="server">
             <HeaderTemplate>
                 <ul class="nav nav-sidebar">
+                    <li>
+                        <a href="/Books.aspx">Tüm Kitaplar</a>
+                    </li>
             </HeaderTemplate>
             <ItemTemplate>
                 <li>
