@@ -11,7 +11,12 @@ namespace EntityFrameworkDataModel.layout.masterpage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (IsPostBack)
+            {
+                string keyword = txtSearch.Text.Trim();
+                string url = string.Format("~/Books.aspx?keyword={0}", keyword);
+                Response.Redirect(url);
+            }
         }
     }
 }

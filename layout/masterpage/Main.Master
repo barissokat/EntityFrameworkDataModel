@@ -35,7 +35,7 @@
                         <li><a href="#">Help</a></li>
                     </ul>
                     <div class="navbar-form navbar-right">
-                        <input type="text" class="form-control" placeholder="Search..." />
+                        <asp:TextBox ID="txtSearch" class="form-control" placeholder="Search..." runat="server"></asp:TextBox>
                     </div>
                 </div>
             </div>
