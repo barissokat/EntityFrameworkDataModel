@@ -116,6 +116,10 @@
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\BeyinSeninHikayen.jpg" />
+    <Content Include="Images\Incognito-BeyninGizliHayatı.jpg" />
+    <Content Include="Images\KanadıKırıkKuşlar.jpg" />
+    <Content Include="Images\ZamanınKısaTarihi.jpg" />
     <Content Include="layout\bootstrap-3.3.7-dist\css\bootstrap-theme.css" />
     <Content Include="layout\bootstrap-3.3.7-dist\css\bootstrap-theme.min.css" />
     <Content Include="layout\bootstrap-3.3.7-dist\css\bootstrap.css" />
