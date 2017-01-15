@@ -8,7 +8,7 @@
                 <div class="col-xs-6 col-sm-3 placeholder">
                     <img src='/Images/small/<%#Eval("Image") %>' width="200" height="200" alt="<%#Eval("Description") %>" />
                     <h4><%#Eval("BookName") %></h4>
-                    <span class="text-muted"><%#Eval("Price") %><span> TL</span></span>
+                    <span class="text-muted"><%#Eval("Price", "{0:C}") %></span>
                 </div>
             </ItemTemplate>
         </asp:Repeater>
