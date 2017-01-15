@@ -6,7 +6,7 @@
         <asp:Repeater ID="BookList" runat="server">
             <ItemTemplate>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <img src='/Images/small/<%#Eval("Image") %>' width="200" height="200" alt="<%#Eval("Description") %>" />
+                    <img src='/Images/small/<%#Eval("Image") %>' width="200" height="200" />
                     <h4><%#Eval("BookName") %></h4>
                     <span class="text-muted"><%#Eval("Price", "{0:C}") %></span>
                 </div>

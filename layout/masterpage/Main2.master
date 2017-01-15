@@ -8,12 +8,12 @@
             <HeaderTemplate>
                 <ul class="nav nav-sidebar">
                     <li>
-                        <a href="/Books.aspx">All Books</a>
+                        <a href="/Books">All Books</a>
                     </li>
             </HeaderTemplate>
             <ItemTemplate>
                 <li>
-                    <a href="/Books.aspx?catid=<%#Eval("Id") %>">
+                    <a href='/Category/<%#EntityFrameworkDataModel.Helper.HelperMethod.ChangeCharacter( Eval("Name").ToString() ) %>?catid=<%#Eval("Id") %>'>
                         <%#Eval("Name") %>
                     </a>
                 </li>
