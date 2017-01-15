@@ -8,7 +8,7 @@
             <HeaderTemplate>
                 <ul class="nav nav-sidebar">
                     <li>
-                        <a href="/Books.aspx">Tüm Kitaplar</a>
+                        <a href="/Books.aspx">All Books</a>
                     </li>
             </HeaderTemplate>
             <ItemTemplate>
